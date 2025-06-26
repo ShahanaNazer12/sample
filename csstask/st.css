@@ -1,0 +1,19 @@
+.container{
+    background-color: red; color: 000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    justify-content: center;
+}
+.item{
+    background-color: aqua;
+    border: 5px solid rgb(20, 206, 98);
+    padding: 30px;
+}
+body{
+    background-color: blueviolet;
+    
+}

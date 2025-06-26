@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domain Search - Hostinger Clone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f6f7fb;
+      color: #1d1d1d;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(to right, #fff, #e9f0ff);
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #2f1c6a;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .search-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .search-box input[type="text"] {
+      padding: 12px 20px;
+      font-size: 16px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    .search-box button {
+      padding: 12px 25px;
+      font-size: 16px;
+      background-color: #673de6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .search-box button:hover {
+      background-color: #532bdc;
+    }
+
+    @media (max-width: 500px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .search-box input {
+        width: 100%;
+      }
+
+      .search-box {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>Find the perfect domain name</h1>
+    <p>Search and register your domain today</p>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search your domain name..." />
+      <button>Search</button>
+    </div>
+  </section>
+
+</body>
+</html>
