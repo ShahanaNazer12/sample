@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            justify-self:  center;
+            align-items:  center;
+        }
+        .login-form {
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #891b1b;
+        }
+        input:focus {
+            outline: none;
+            border: 2px solid #891b1b;
+        }
+        .btn
+        {
+            width: 30%;
+            padding: 10px;
+            margin: 10px auto;
+            display: block;
+            border: none;
+            border-radius: 5px;
+            background-color: #891b1b;
+            color: white;
+            
+        }
+        .btn:hover {
+            background-color: #962377;
+            cursor: pointer;
+        }
+        .btn:active {
+            background-color: #1cb43d;
+        }
+        #username,#pass{
+            border-radius: 5px;
+        }
+        body{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h2>login</h2>
+        <form action="">
+            <label for="username">username</label>
+            <input type="username" name="username" id="username"><br>
+            <label for="pass"> password</label>
+            <input type="password" name="pass" id="pass"><br>
+            <button type="submit" class="btn"> submit</button>
+            <p>use your credential into login</p>
+        </form>
+
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    padding: 16px;
+    font: 1em sans-serif;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+ .desktop ol{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    gap: 20px;
+
+}
+button{
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

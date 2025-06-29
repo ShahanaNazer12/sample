@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 hi
 iam sherin
-=======
 helloo
->>>>>>> 83cf9498bba213aa9c625ef5ea7e752cb9e4580c
+ 

@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #username{
+            width: 200px;
+            height: 30px;   
+            color: #802222;
+        }
+    </style>
 </head>
 <body>
 
     <h1>REGISTRATION FORM</h1>
     <form action="">
-        FIRST NAME : <input type="text" name="name" placeholder="Enter your name" required><br>
+        <label for="username"> FIRST NAME </label>
+        <input type="text" name="username" id="username" placeholder="Enter your first name" required><br>
         SECOND NAME: <input type="text" name="secondname" placeholder="Enter your second name" required><br>
         EMAIL : <input type="email" name="email" placeholder="Enter your email" required><br>
         PASSWORD : <input type="password" name="password" placeholder="Enter your password" required><br>
@@ -33,6 +41,7 @@
         
         
         <input type="submit" value="Submit"><br><br>
+        <input type="reset" value="Reset"><br><br>
     </form>
 </body>
 </html>

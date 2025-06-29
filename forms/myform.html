@@ -4,38 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1{
-            color: #ae1c1c;
-            text-align: center;
-        }
-        #fname, #sname, #email, #pass, #gender, #hobbi, #state, #photo {
-            margin: 10px;
-            padding: 5px;
-            color: rgb(24, 27, 208);
-        }
-        form {
-            width: 50%;
-            margin: auto;
-            padding: 20px;
-            border: 2px solid #ae1c1c;
-            border-radius: 10px;
-            background-color: #f0e68c;
-        }
-        label {
-            display: block;
-            margin: 10px 0 5px;
-            font-weight: bold;
-        }
-       
-    </style>
+    <link rel="stylesheet" href="./styles.css">
+    
     
 </head>
 <body>
     <h1>REGISTRATION FORM</h1>
     <form action="">
-        <div style="background-color: bisque;">
-            <h2>personal details</h2>
+        <div class="new" style="background-color: bisque;">
+            <h2 class="new">personal details</h2>
             <label for="finame">firstname:</label>
             <input type="text" name="finame" id="fname" >
             <label for="sname">secondname:</label>
@@ -66,6 +43,12 @@
             <br>
             <input type="submit" value="submit">
 
+        </div>
+        <div class="box">
+            <div class="innerbox">
+
+            </div>
+            <button id="button"> button</button>
         </div>
 
     </form>
