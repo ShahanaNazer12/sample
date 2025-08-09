@@ -62,16 +62,25 @@
 
 //7. Create a function that checks if a given number is positive, negative, or zero.
 
-function fun(num){
-    if(num>0){
-        return"positive"
-    }else if(num<0){
-        return"negative"
-    }else{
-        return"zero"
-    }
+// function fun(num){
+//     if(num>0){
+//         return"positive"
+//     }else if(num<0){
+//         return"negative"
+//     }else{
+//         return"zero"
+//     }
+// }
+// console.log(fun(0))
+
+
+let year=2023;
+if(year%4==0 && year %100!=0 || year % 400==0){
+    console.log("leap year");
+
+}else{
+    console.log("not")
 }
-console.log(fun(0))
 
 
     </script>
