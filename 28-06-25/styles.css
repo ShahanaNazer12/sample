@@ -5,18 +5,29 @@ body{
 header{
     display: flex;
     padding: 16px;
+     
     background-color: rgb(13, 76, 97);
     align-items: baseline;
     font-weight: bold;
     justify-content: space-around;
     color: white;
+    position: sticky;
+    top: 0;
+   
+    
+    
 
 }
 .container ul{
     display: flex;
     list-style: none;
     gap: 25px;
+    cursor: pointer;
+    transition: 0.3s;
     
+}
+.container ul :hover{
+    color: aquamarine;
 }
 .menu {
   display: none; /* Hide on large screens */
@@ -74,7 +85,13 @@ p{
   border-radius: 10px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* nice shadow */
   transition: 0.3s;
+  cursor: pointer;
 }
+.port img:hover {
+  
+  transform: scale(1.05); /* optional zoom effect */
+}
+
 .hero h2{
     display: flex;
     justify-content: center;
