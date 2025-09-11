@@ -1,0 +1,13 @@
+
+.hi a{
+    text-decoration: none;
+    color: rgb(197, 196, 191);
+    font-size: small;
+}
+ .hi a:hover{
+    color: white;
+ }
+ .hu{
+    color: rgb(197, 196, 191);
+    font-size: small;
+ }

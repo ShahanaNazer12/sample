@@ -1,0 +1,16 @@
+.hide{
+    display: inline-block;
+}
+.arrow{
+    display: none;
+}
+
+@media (max-width: 576px) {
+  .hide {
+    display: none;
+  }
+  .arrow{
+    display: inline-block;
+    cursor: pointer;
+  }
+}
